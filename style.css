@@ -5,29 +5,74 @@
 .header {
   background-color: #1f2937;
   width: 100%;
-  height: 300px;
+  height: 50vh;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 16px; */
+  flex-wrap: wrap;
 }
+
 .header-logo {
+  width: 400px;
   font-size: 24px;
   color: #f9faf8;
 }
 
 .header-nav {
+  width: 90%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .header-links {
   display: flex;
   list-style: none;
-  gap: 24px;
+  gap: 3rem;
   font-size: 18px;
+  padding: 0;
 }
 
 .header-links a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.hero-main {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero-info {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-info_title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  background-color: aquamarine;
+  width: 400px;
+  height: 250px;
+}
+
+.test-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+  gap: 3rem;
 }
