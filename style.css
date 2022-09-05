@@ -12,9 +12,9 @@ header {
 }
 
 .header-nav {
-  width: 80%;
+  width: 60%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 2rem 0;
 }
@@ -27,7 +27,7 @@ header {
 .header-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 a {
@@ -36,8 +36,40 @@ a {
   text-decoration: none;
 }
 
+.hero-main {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.hero-main-left {
+  width: 400px;
+}
+
+.hero-main-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 1rem;
+}
+
+.hero-main-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.hero-main-btn {
+  color: #f9faf8;
+  background-color: #3a86ff;
+  border-radius: 10px;
+  padding: 8px 24px;
+}
+
 .main-hero-img {
-  width: 450px;
-  height: 300px;
+  width: 550px;
+  height: 250px;
   background-color: beige;
 }
